@@ -65,7 +65,7 @@ class Crudempresa extends Component
         ]);
 
         session()->flash('message',
-            $this->id_producto ? '¡Actualización exitosa!' : '¡Registrado Exitosamente!');
+            $this->id_empresa ? '¡Actualización exitosa!' : '¡Registrado Exitosamente!');
 
         $this->cerrarModal();
         $this->limpiarCampos();
