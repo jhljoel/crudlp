@@ -88,7 +88,7 @@
                                 <div class="w-full mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                                     <label for="empresa_id"
                                         class="block text-gray-700 text-lg font-bold mb-0">Id de la empresa:</label>
-                                    <input type="select"
+                                    <input type="text"
                                         class="shadow appearance-none border rounded mt-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                         id="empresa_id" wire:model="empresa_id" placeholder="Poner el id de la empresa">
                                 </div>
