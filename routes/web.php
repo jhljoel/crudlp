@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\Crudconvocatoriappp;
 use App\Livewire\Crudempresa;
 use Illuminate\Support\Facades\Route;
 
@@ -28,5 +29,6 @@ Route::middleware([
     })->name('dashboard');
 
     Route::get('/crudempresa', Crudempresa::class);
+    Route::get('/crudconvocatoriappp', Crudconvocatoriappp::class);
 
 });

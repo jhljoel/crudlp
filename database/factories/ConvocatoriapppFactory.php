@@ -17,7 +17,14 @@ class ConvocatoriapppFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'titulo' => $this->faker->word(),
+            'descripcion'=>$this->faker->sentence(),
+            'fecha_inicio'=>$this->faker->date(),
+            'fecha_fin'=>$this->faker->date(),
+            'numero_plazas_disponibles'=>$this->faker->numberBetween(10.80),
+            'requisitos'=>$this->faker->sentence(),
+            'adjuntar_documento'=>$this->faker->sentence(),
+            'empresa_id'=>$this->faker->numberBetween(1,20),
         ];
     }
 }
